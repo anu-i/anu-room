@@ -1,0 +1,71 @@
+body {
+	font-family: 'Trebuchet MS', sans-serif;
+	color: white;
+	background: black url('space.gif') 1000px;
+}
+
+#main:hover {
+	animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#moon {
+	animation: rotation 5s infinite linear;
+}
+
+#sackboy {
+	position: fixed;
+	margin-left: 100px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.navbar {
+	overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    margin-right: 10px;
+    color: #E76F51;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #E9C46A;
+    color: black;
+}
+
+.active {
+    background: #F4A261;
+    color: black;
+}
+
