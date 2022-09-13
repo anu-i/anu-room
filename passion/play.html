@@ -6,13 +6,72 @@
 </head>
 <body>
 	<div class="navbar">
-  		<a href="bio.html">Bio</a>
-  		<a href="personal.html">Personal</a>
+  		<a href="story.html">Story</a>
   		<a class="active" href="#Home">Play</a>
   		<a href="passion.html">Home</a>
 	</div>
+	<h1>LittleBIGPlanet</h1>
+	
 	<div>
-		<img id="sackboy" src="sackboy.png" alt="sackboy" width="600px">
+		<p style="padding: 50px; width: 630px; margin-left: 400px; text-align: center; font-size: 20px;" >In LittleBIGPlanet, players can customize their characters with a plethora of outfits. These outfits are earned through checkpoints in various levels. This was one of my favorite things to do.<br> <br> <b> Scroll and drag across an outfit you like to customize your sackboy.</b></p>
 	</div>
+		<div id="outfits">
+			<div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<div" id="sackboy" style="width: 600px;">
+					<img src="sackboy.png" alt="sackboy" width="500px">
+				</div>
+
+				<div id="egg" style="float: right;">
+					<img src="outfit1.png" alt="egg" width="550px">
+				</div>
+
+				<div id="dino" style="float: right;">
+					<img src="outfit2.png" alt="dino" width="600px">
+				</div>
+
+				<div id="dress" style="float: right;">
+					<img src="outfit3.png" alt="dress" width="480px">
+				</div>
+
+				<div id="knight" style="float: right;">
+					<img src="outfit4.png" alt="knight" width="500px">
+				</div>
+
+				<div id="shirt" style="float: right;">
+					<img src="outfit5.png" alt="shirt" width="500px">
+				</div>
+			</div>
+		</div>
+
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<script>
+		jQuery("#egg").draggable({
+			containment: $('#outfits')
+		});
+
+		jQuery("#dino").draggable({
+			containment: $('#outfits')
+		});
+
+		jQuery("#dress").draggable({
+			containment: $('#outfits')
+		});
+
+		jQuery("#knight").draggable({
+			containment: $('#outfits')
+		});
+
+		jQuery("#shirt").draggable({
+			containment: $('#outfits')
+		});
+	</script>
+
+
 </body>
 </html>

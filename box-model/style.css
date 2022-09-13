@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {	
+	margin:0;
+	background-color: cornflowerblue;
+}
+
+.content {
+	background-color: darkslateblue;
+	color: blanchedalmond;
+	width: 200px;
+	height: 200px;
+	padding: 30px;
+	border: 10px solid chartreuse;
+	margin: 50px auto;
+	font-family: 'Lobster', cursive;
+	font-family: 'Staatliches', cursive;
+	font-size: 90px;
+}
+
+.border {
+	background-color: darkslateblue;
+	color: blanchedalmond;
+	width: 200px;
+	height: 200px;
+	padding: 30px;
+	border: 10px solid chartreuse;
+	margin: 50px;
+	box-sizing: border-box;
+}

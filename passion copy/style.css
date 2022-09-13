@@ -4,24 +4,27 @@ body {
 	background: black url('space.gif') 1000px;
 }
 
-h1 {
-  font-size: 20px;
-  margin-left: 30px;
-  position: fixed;
-}
-
-.intro {
-  font-size: 40px;
-  margin-left: 100px;
-}
-
-#main {
-  margin-left: 100px;
-}
-
 #main:hover {
 	animation: shake 0.5s;
-  animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+#moon {
+	animation: rotation 5s infinite linear;
+}
+
+#sackboy {
+	position: fixed;
+	margin-left: 100px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 @keyframes shake {
@@ -38,31 +41,17 @@ h1 {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
-#moon {
-	animation: rotation 5s infinite linear;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
-
 .navbar {
-	  overflow: hidden;
+	overflow: hidden;
     background-color: transparent;
     position: fixed;
     width: 100%;
-    right: 10px;
 }
 
 .navbar a {
     float: right;
     display: block;
-
+    margin-right: 10px;
     color: #E76F51;
     text-align: center;
     padding: 14px 16px;
@@ -79,30 +68,4 @@ h1 {
     background: #F4A261;
     color: black;
 }
-
-/*play page*/
-
-#sackboy {
-  margin-left: 100px;
-
-}
-
-#outfits {
-  position: absolute;
-}
-
-/*story page*/
-
-.story {
-  text-align: left;
-  padding: 200px;
-  font-size: 30px;
-}
-
-
-
-
-
-
-
 
