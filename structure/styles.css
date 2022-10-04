@@ -1,0 +1,143 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: mintcream;
+}
+
+img {
+	max-width: 100%;
+}
+
+.homenav {
+	width: 1000px;
+	margin: auto;
+	display: flex;
+	gap: 10px;
+}
+
+/*ENZO*/
+
+.enzopics {
+	width: 2000px;
+	display: flex;
+	align-items: flex-start;
+	gap: 5px;
+	flex-wrap: nowrap;
+}
+
+.enzo {
+	width: 12%;
+	flex-shrink: 0;
+	position: relative;
+}
+
+#one {
+	/*margin-top: 100px;*/
+	top: 100px;
+	left: 50px;
+	/*width: 12%;
+	height: 12%;*/
+}
+
+#five {
+	margin-top: 600px;
+	/*width: 12%;
+	height: 12%;*/
+}
+
+#nine {
+	margin-top: 300px;
+	/*width: 12%;
+	height: 12%;*/
+}
+
+#ten {
+	margin-top: 450px;
+/*	width: 12%;
+	height: 12%;*/
+}
+
+#eleven {
+	margin-top: 800px;
+	/*width: 12%;
+	height: 12%;*/
+}
+
+#twelve {
+	margin-top: 730px;
+	/*width: 12%;
+	height: 12%;*/
+}
+
+#fourteen {
+	margin-top: 200px;
+	/*width: 12%;
+	height: 12%;*/
+}
+
+#eighteen {
+	margin-top: 150px;
+/*	width: 12%;
+	height: 12%;*/
+}
+
+#nineteen {
+	margin-top: 550px;
+	/*width: 12%;
+	height: 12%;*/
+}
+
+/*MOMO*/
+
+.momopics {
+	width: 2000px;
+	display: flex;
+	align-items: flex-start;
+	gap: 5px;
+	flex-wrap: nowrap;
+	flex-shrink: 0;
+}
+
+.momo {
+	width: 12%;
+	flex-shrink: 0;
+	position: relative;
+}
+
+#six {
+	margin-top: 90px;
+}
+
+#seven {
+	margin-top: 500px;
+}
+
+#eight{
+	margin-top: 180px;
+}
+
+#thirteen {
+	margin-top: 100px;
+}
+
+#fifteen {
+	margin-top: 600px;
+}
+
+#sixteen {
+	margin-top: 830px;
+}
+
+#seventeen {
+	margin-top: 700px;
+}
+
+#twenty {
+	margin-top: 350px;
+}
+
+#twentyone {
+	margin-top: 550px;
+}
