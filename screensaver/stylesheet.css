@@ -68,6 +68,16 @@ body {
 	animation: up 2s infinite alternate;
 }
 
+.bear {
+	display: flex;
+	align-items: flex-end;
+	background-color: #21262c;
+	width: 100px;
+	height: 100vh;
+	position: absolute;
+	animation: walk 10s infinite;
+}
+
 .all-rain {
 	display: flex;
 
@@ -137,6 +147,16 @@ body {
 	}
 }
 
+@keyframes walk {
+	0% {
+		transform: translateX(1010vw);
+	}
+
+	100% {
+		transform: translateX(-10vw);
+	}
+
+}
 
 
 
