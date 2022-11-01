@@ -79,8 +79,9 @@ $("#dance").on("click",function(){
 $("#sleep").click(function(){
 
     $(".dog").toggleClass("hide");
+    $(".sleepy").toggleClass("hide");
 
-    $("body").toggleClass("sleepy");
+    $("body").toggleClass("sleeping");
 
 });
 
