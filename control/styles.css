@@ -1,0 +1,103 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 10px;
+	background-color: #F3F3F3;
+	transition: background-color .5s;
+}
+
+body.sleepy {
+	background-color: #17272A;
+}
+
+button {
+	/*margin-left: 450px;*/
+	padding: 10px;
+	cursor: pointer;
+	background-color: #9EEDFF;
+	transition: background-color .2s;
+}
+
+button:hover {
+	background-color: #FEFF9E;
+}
+
+button:active {
+	background-color: #B6D4DA;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	margin-top: 300px;
+	margin-left: 220px;
+}
+
+#add {
+	margin-left: 600px;
+}
+
+#subtract {
+	margin-left: 150px;
+}
+
+.dog {
+	margin-left: 20px;
+	width: 170px;
+	opacity: 0;
+	position: relative;
+}
+
+.sleepy {
+	width: 300px;
+	opacity: 0;
+	z-index: 1;
+	position: relative;
+}
+
+.dog.spin {
+	animation-play-state: running;
+	animation: spin infinite 2s;
+}
+
+#dance {
+	margin-left: 1350px;
+}
+
+#sleep {
+	margin-left: 20px;
+}
+
+.draggable {
+	cursor: grab;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
