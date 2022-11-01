@@ -78,25 +78,9 @@ $("#dance").on("click",function(){
 
 $("#sleep").click(function(){
 
-    $(".one").css('opacity', '0');
-    dogs--;
+    $(".dog").toggleClass("hide");
 
-    $(".two").css('opacity', '0');
-    dogs--;
-
-    $(".three").css('opacity', '0');
-    dogs--;
-
-    $(".four").css('opacity', '0');
-    dogs--;
-
-    $(".five").css('opacity', '0');
-    dogs--;
-
-    $(".sleepy").css('opacity', '1');
-    dogs++;
-
-    // $("body").toggleClass("sleepy");
+    $("body").toggleClass("sleepy");
 
 });
 

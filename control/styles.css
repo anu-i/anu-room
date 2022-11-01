@@ -50,11 +50,14 @@ button:active {
 	position: relative;
 }
 
-.sleepy {
+.dog.sleepy {
 	width: 300px;
-	opacity: 0;
+	opacity: 1;
 	z-index: 1;
-	position: relative;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .dog.spin {
@@ -62,12 +65,20 @@ button:active {
 	animation: spin infinite 2s;
 }
 
+.dog.hide {
+	display: none;
+}
+
 #dance {
-	margin-left: 1350px;
+	bottom: 30px;
+	right: 30px;
+	position: fixed;
 }
 
 #sleep {
-	margin-left: 20px;
+	bottom: 30px;
+	left: 30px;
+	position: fixed;
 }
 
 .draggable {
