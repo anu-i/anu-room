@@ -1,3 +1,97 @@
 body {
-	background-color: lightcoral;
+	background-color: #FCF8B4;
+	background-image: url('background.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 90px;
+	margin-left: 30px;
+	margin-top: 100px;
+	font-family: 'Dokdo', cursive;
+}
+
+p {
+	margin-left: 30px;
+	font-family: 'Dokdo', cursive;
+}
+
+.container {
+	width: 100vw;
+	/*position: fixed;*/
+	z-index: 2;
+}
+
+#journals {
+	/*background-color: red;*/
+	width: 50px;
+	height: 50px;
+	top: 550px;
+	left: 460px;
+	position: absolute;
+}
+
+#first-site {
+	/*background-color: red;*/
+	width: 150px;
+	height: 200px;
+	top: 40px;
+	left: 740px;
+	position: absolute;
+}
+
+#passion {
+	/*background-color: red;*/
+	width: 150px;
+	height: 220px;
+	top: 140px;
+	left: 920px;
+	position: absolute;
+
+}
+
+#structure {
+	/*background-color: red;*/
+	width: 270px;
+	height: 150px;
+	top: 40px;
+	left: 1070px;
+	position: absolute;
+}
+
+#screensaver {
+	/*background-color: red;*/
+	width: 150px;
+	height: 150px;
+	top: 400px;
+	left: 130px;
+	position: absolute;
+}
+
+#accordian {
+	/*background-color: red;*/
+	width: 240px;
+	height: 70px;
+	top: 680px;
+	left: 940px;
+	position: absolute;
+}
+
+#control {
+	/*background-color: red;*/
+	width: 150px;
+	height: 390px;
+	top: 240px;
+	left: 1200px;
+	position: absolute;
+}
+
+#final {
+	/*background-color: red;*/
+	width: 100px;
+	height: 100px;
+	top: 670px;
+	left: 350px;
+	position: absolute;
 }

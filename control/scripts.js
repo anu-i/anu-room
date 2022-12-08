@@ -65,6 +65,7 @@ $("#subtract").on("click",function() {
     
 });
 
+// dance //
 
 $("#dance").on("click",function(){
 
@@ -84,6 +85,8 @@ $("#sleep").click(function(){
     $("body").toggleClass("sleeping");
 
 });
+
+// drag //
 
 $( function() {
     $( ".draggable" ).draggable();
